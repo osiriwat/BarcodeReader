@@ -59,7 +59,7 @@ var app = {
         scanner.scan( function (result) { 
 		window.location.href = result.text;		
         }, function (error) { 
-            console.log("Scanning failed: ", error); 
+            alert("Scanning failed: "+ error); 
         } );
     },
 
